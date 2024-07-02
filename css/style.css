@@ -1,3 +1,35 @@
-p {
-    color: red;
+/* css reset */
+* {
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
 }
+
+/* genrici */
+
+/* body sfondo grigio */
+body {
+    background-color: lightgray;
+}
+
+/* heder */
+header {
+    background-color: white;
+    padding: 10px;
+    margin: o;
+}
+
+#logo {
+    height: 50px;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline;  
+    vertical-align: middle;
+
+}
+
+/* .size_img {
+    height: 200;
+} */
