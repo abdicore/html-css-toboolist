@@ -100,8 +100,31 @@ h2 {
 
 .badge {
     color: white;
-    background-color: rgb(64, 130, 235);
+    background-color: rgb(64, 235, 209);
     font-size: 9px;
     padding: 5px;
     border-radius: 25%;
 }
+
+.badge-editorial {
+    color: white;
+    background-color: rgb(71, 59, 183);
+    font-size: 9px;
+    padding: 5px;
+    border-radius: 25%;
+}
+
+.badge-copy {
+    color: white;
+    background-color: rgb(231, 129, 13);
+    font-size: 9px;
+    padding: 5px;
+    border-radius: 25%;
+}
+
+.badge-addres {
+    color: white;
+    background-color: rgb(183, 59, 65);
+    font-size: 9px;
+    padding: 5px;
+    border-radius: 25%;
