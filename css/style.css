@@ -47,5 +47,16 @@ h1 {
     background-color: aqua;
 } */
  button {
-    padding: 4%;
- }
+    padding: 5px;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.button-task {
+    background-color: white;
+    color: gray;
+    border: solid gray;
+}
+
