@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 /* conteiner */
@@ -75,6 +76,7 @@ h1 {
 h2 {
     margin-top: 40px;
     margin-bottom: 10px;
+    font-weight: 500;
 }
 
 .size-arrow {
@@ -82,11 +84,19 @@ h2 {
     color: red;
 }
 
-.symbol {
+.symbol-cross {
     border: solid red;
     border-radius: 50%;
     margin-right: 3px;
 }
+
+.symbol-check {
+    border: solid green;
+    border-radius: 50%;
+    margin-right: 3px;
+    color: green;
+}
+
 
 .badge {
     color: white;
