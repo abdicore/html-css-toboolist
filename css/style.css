@@ -7,9 +7,10 @@
 
 /* conteiner */
 .conteiner {
-    width: 1000px;
-    margin: o auto;
+    width: 600px;
+    margin: 0 auto;
     background-color: white;
+    margin-top: 30px;
 }
 
 /* genrici */
