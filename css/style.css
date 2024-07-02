@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+/* conteiner */
+.conteiner {
+    width: 1000px;
+    margin: o auto;
+    background-color: white;
+}
+
 /* genrici */
 
 /* body sfondo grigio */
@@ -30,6 +37,15 @@ h1 {
 
 }
 
-/* .size_img {
-    height: 200;
+/* buttons */
+
+/* .paddingbox {
+    padding: 20px;
+}
+
+.color-task {
+    background-color: aqua;
 } */
+ button {
+    padding: 4%;
+ }
