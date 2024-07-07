@@ -10,58 +10,97 @@
     <title>ToDolist</title>
 </head>
 <body>
-    <header> 
-        <!-- logo + testo -->
-        <div>
-            <img class="size_img" src="img/Logo.png" alt="BOOLEAN" id="logo">
-            <h1>Toboolist</h1>
-        </div>
+
+        <!-- loto+testo -->
+    <header>
+        <img src="img/Logo.png" alt="Logo Boolean">
+        <h1>ToDoList</h1> 
+
     </header>
-    <div class="conteiner">
-        <section class="imput">
-            <!-- bottom -->
-            <form class="paddingbox">
-                <button>ADD Tasck</button>
-                <button class="button-task">ADD Section</button>
-            </form>
-        </section>
 
-        <section class="lista">
-            <!-- lista task -->
-            <h2><span class="size-arrow">&#9660;</span>New Task</h2>
-            <div class=""><span class="symbol-cross">&#10060;</span>Quarently Newsletter</div>
-            <span class="badge-editorial">Editorial</span>
+    <!-- card -->
+     <main class="container">
+                <!-- card header -->
+        <div class="card">
+            <div class="card-header">
+                <button class="bottone">Add Task</button>
+                <button class="bottone btn-outline">Add Section</button>
+            </div>
+                <!-- card body  con lista-->
+            <div class="card-body">
+                <ul>
+                    <li>
+                        <h3>&blacktriangledown; New Task</h3>
+                        <ul class="task-list">
+                            <li class="task-item">
+                                <span class="task-status-done">&check;</span>
+                                <span class="task-text">Comprare le lenti</span>
+                                <span class="task-badge-essential">Essential</span>
+                            </li>
+                        </ul>
+                    </li>
+                <ul>
+                    <li>
+                        <h3>&blacktriangledown; Today</h3>
+                        <ul class="task-list">
+                            <li class="task-item">
+                                <span class="task-status-done">&check;</span>
+                                <span class="task-text">Comprare le lenti</span>
+                                <span class="task-badge-essential">Essential</span>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-status-undone">&cross;;</span>
+                                <span class="task-text">Fare la spesa</span>
+                                <span class="task-badge-copy">Copy</span>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-status-done">&check;</span>
+                                <span class="task-text">Ritirare le medicine</span>
+                                <span class="task-badge-right">Right</span>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-status-undone">&cross;;</span>
+                                <span class="task-text">Portare il cane</span>
+                                <span class="task-badge-essential">Essential</span>
+                            </li>
+                        </ul>
+                    </li>
+                <ul>
+                    <li>
+                        <h3>&blacktriangledown; Upcoming</h3>
+                        <ul class="task-list">
+                            <li class="task-item">
+                                <span class="task-status-undone">&cross;</span>
+                                <span class="task-text">Comprare le lenti</span>
+                                <span class="task-badge-copy">Copy</span>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-status-undone">&cross;</span>
+                                <span class="task-text">Fare la spesa</span>
+                                <span class="task-badge-right">Right</span>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-status-done">&check;</span>
+                                <span class="task-text">Ritirare le medicine</span>
+                                <span class="task-badge-copy">Copy</span>
+                            </li>
+                            <li class="task-item">
+                                <span class="task-status-undone">&cross;;</span>
+                                <span class="task-text">Ritirare le medicine</span>
+                                <span class="task-badge-right">Right</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
 
-        </section>
+            </div>
 
-        <section class="lista">
-            <!-- lista todey -->
-            <h2><span class="size-arrow">&#9660;</span>Today</h2>
-            <div class=""><span class="symbol-check">&#10003;</span>Recrutin bloog post</div><span class="badge-editorial">Editorial</span>
-            <div class=""><span class="symbol-cross">&#10060;</span>Recrutin bloog post</div><span class="badge-copy">copy</span>
-            <div class=""><span class="symbol-check">&#10003;</span>Recrutin bloog post</div><span class="badge">Editorial</span>
 
-        </section>
+        </div>
 
-        <section class="lista">
-            <!-- lista upcoomin -->
-            <h2><span class="size-arrow">&#9660;</span>Upcooming</h2>
-            <div class=""><span class="symbol-cross">&#10060;</span>Home page refres</div><span class="badge-copy">copy</span>
-            <div class=""><span class="symbol-cross">&#10060;</span>Home page refres</div><span class="badge-addres">Addres</span>
-            <div class=""><span class="symbol-check">&#10003;</span>RHome page refres</div><span class="badge-addres">Address</span>
+     </main>
 
-        </section>
 
-        <section>
-            <ul>
-                <li><h2 class="display"><span class="size-arrow">&#9660;</span>New Task</h2>
-                <li><span class="symbol-cross">&#10060;</span>Home page refres</div>
-                    <span class="">Editorial</span>
-                </li>
-            </ul>
-        </section>
-<!-- ho capito come andava impostato il lavoro tardi -->
-    </div>
 
       
 </body>
